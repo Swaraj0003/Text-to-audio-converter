@@ -23,7 +23,9 @@ Text-to-Speech Engine: gTTS
 Audio Format: MP3
 
 Project Structure
+
 text-to-speech/
+
 │
 ├── app.py
 |
