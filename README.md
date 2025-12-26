@@ -1,63 +1,83 @@
-Text-to-Speech Web Application
+🔊 Text-to-Speech Web Application
 
-A simple and user-friendly web application that converts user-entered text into natural-sounding speech using Google Text-to-Speech (gTTS). The application is built using Python, Flask, HTML, and CSS.
+This project is a web-based Text-to-Speech (TTS) application that converts user-entered text into natural-sounding speech using Google Text-to-Speech (gTTS). It is built with Python and Flask on the backend and HTML/CSS on the frontend.
 
- Features
+Features
 
 Convert text to speech in real time
 
-Supports multiple languages (English, Hindi, Malayalam, Tamil, French, etc.)
-
-Web-based interface — no installation required for end users
+Supports multiple languages (English, Hindi, Malayalam, Tamil, French)
 
 Audio playback directly in the browser
 
-Lightweight and easy to deploy
-
+Simple and responsive user interface
 
 Tech Stack
 
-Component	Technology
+Backend: Python, Flask
 
-Backend     	        Python, Flask
-Frontend     	        HTML, CSS
-Text to Speech      	gTTS (Google Text-to-Speech)
-Audio Format	        MP3
+Frontend: HTML, CSS
 
+Text-to-Speech Engine: gTTS
 
+Audio Format: MP3
+
+Project Structure
 text-to-speech/
-
 │
 ├── app.py
-
 ├── requirements.txt
-
 ├── static/
-
 │   └── style.css
-
 └── templates/
-
     └── index.html
 
-'''
-
+Installation
 git clone https://github.com/your-username/text-to-speech.git
-
 cd text-to-speech
-'''
-
-
 pip install -r requirements.txt
-
-
-
 python app.py
 
 
- Limitations
+Open in browser:
+http://127.0.0.1:5000
 
-Requires an active internet connection (gTTS uses Google’s online API).
+Usage
 
-Audio generation speed depends on network quality.
+Enter text in the input box.
 
+Select a language.
+
+Click "Convert to Speech".
+
+Listen to the generated audio.
+
+Supported Languages
+
+English (en)
+
+Hindi (hi)
+
+Malayalam (ml)
+
+Tamil (ta)
+
+French (fr)
+
+Future Improvements
+
+Offline speech generation
+
+Voice control (speed, pitch)
+
+Upload and convert text files
+
+Cloud deployment
+
+License
+
+MIT License
+
+Author
+
+Developed as a learning and demonstration project.
