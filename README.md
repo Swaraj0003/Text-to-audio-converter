@@ -40,11 +40,12 @@ text-to-speech/
 
     └── index.html
 
-
+'''
 
 git clone https://github.com/your-username/text-to-speech.git
-cd text-to-speech
 
+cd text-to-speech
+'''
 
 
 pip install -r requirements.txt
