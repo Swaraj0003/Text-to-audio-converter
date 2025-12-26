@@ -48,7 +48,7 @@ text-to-speech/
 
 Installation
 
-git clone https://github.com/your-username/text-to-speech.git
+git clone https://github.com/Swaraj0003/text-to-speech.git
 cd text-to-speech
 pip install -r requirements.txt
 python app.py
