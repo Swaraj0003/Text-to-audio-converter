@@ -37,13 +37,13 @@ text-to-speech/
 ├── static/
 
     |
-│   └── style.css
+    └── style.css
 
 |
 └── templates/
 
-    |
-    └── index.html
+ |
+ └── index.html
     
 
 Installation
