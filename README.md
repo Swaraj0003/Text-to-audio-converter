@@ -26,13 +26,19 @@ Project Structure
 text-to-speech/
 │
 ├── app.py
+|
 ├── requirements.txt
+|
 ├── static/
+|   |
 │   └── style.css
+|
 └── templates/
+|   |
     └── index.html
 
 Installation
+
 git clone https://github.com/your-username/text-to-speech.git
 cd text-to-speech
 pip install -r requirements.txt
@@ -40,9 +46,10 @@ python app.py
 
 
 Open in browser:
+
 http://127.0.0.1:5000
 
-Usage
+Usage:
 
 Enter text in the input box.
 
@@ -52,32 +59,8 @@ Click "Convert to Speech".
 
 Listen to the generated audio.
 
-Supported Languages
 
-English (en)
 
-Hindi (hi)
 
-Malayalam (ml)
-
-Tamil (ta)
-
-French (fr)
-
-Future Improvements
-
-Offline speech generation
-
-Voice control (speed, pitch)
-
-Upload and convert text files
-
-Cloud deployment
-
-License
-
-MIT License
-
-Author
 
 Developed as a learning and demonstration project.
