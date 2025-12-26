@@ -33,9 +33,11 @@ text-to-speech/
 ├── requirements.txt
 
 ├── static/
+
 │   └── style.css
 
 └── templates/
+
     └── index.html
 
 
