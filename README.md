@@ -27,17 +27,24 @@ Project Structure
 text-to-speech/
 
 │
+
 ├── app.py
+
 |
 ├── requirements.txt
+
 |
 ├── static/
+
 |   |
 │   └── style.css
+
 |
 └── templates/
+
 |   |
     └── index.html
+    
 
 Installation
 
